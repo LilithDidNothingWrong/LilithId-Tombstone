@@ -1,0 +1,1 @@
+document.getElementById('AMIRAL').volume = 0.50; // 20% volume

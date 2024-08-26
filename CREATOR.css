@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #00FF00;
+    font-family: monospace;
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    text-align: center;
+}
+.SEJO {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.CYBERZEIST {
+    margin-bottom: 2em; /* Adds space between the two ASCII art sections */
+}
+
+pre {
+    margin: 0;
+    font-size: 0.33em; /* Adjust font size to fit your screen */
+    line-height: 1; /* Prevents additional spacing between lines */
+}
+
+.ALOEGARTEN {
+    padding: 1em; /* Padding inside the container */
+    max-width: 100%; /* Prevent content overflow */
+    box-sizing: border-box;
+    font-size: 1em; /* Base font size */
+    line-height: 1.5; /* Improve readability */
+}
+
+@media (max-width: 1200px) {
+    .ALOEGARTEN {
+        font-size: 1.1em; /* Slightly larger text */
+    }
+}
+
+@media (max-width: 768px) {
+    .ALOEGARTEN {
+        font-size: 1.2em; /* Larger text for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .ALOEGARTEN {
+        font-size: 1.3em; /* Even larger text for mobile devices */
+    }
+}
